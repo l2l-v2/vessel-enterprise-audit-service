@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.l2l.enterprise.vessel.audit",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "microservice",
+    "baseName": "VesselAudit",
+    "packageName": "com.l2l.enterprise.vessel.audit",
+    "packageFolder": "com/l2l/enterprise/vessel/audit",
+    "serverPort": "8084",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODVjNjE1NDIyOTQ4YjczMzNkMDZiODIzMTljOTE2YWUxODNiY2FmMzEwNzA4NTdmNWJjNDM1MTRlOTAwODc5MDNkZDFiZmZkYzYzYmY4OWZiMGRiMDUwZDUxZjJlMDJmZDExN2I0YjM5MDQ0ZGMzMGEyYTA1MmRlYzdjZDM1NjY=",
+    "enableTranslation": true,
+    "languages": [
+      "en",
+      "zh-cn"
+    ],
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

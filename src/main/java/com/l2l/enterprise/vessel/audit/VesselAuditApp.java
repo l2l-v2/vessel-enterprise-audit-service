@@ -3,6 +3,7 @@ package com.l2l.enterprise.vessel.audit;
 import com.l2l.enterprise.vessel.audit.config.ApplicationProperties;
 import com.l2l.enterprise.vessel.audit.config.DefaultProfileUtil;
 
+import com.l2l.enterprise.vessel.audit.config.EnableActivitiAudit;
 import io.github.jhipster.config.JHipsterConstants;
 
 import org.apache.commons.lang3.StringUtils;
@@ -24,6 +25,7 @@ import java.util.Collection;
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 @EnableDiscoveryClient
+@EnableActivitiAudit
 public class VesselAuditApp {
 
     private static final Logger log = LoggerFactory.getLogger(VesselAuditApp.class);

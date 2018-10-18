@@ -42,6 +42,8 @@ dependencyManagement {
   imports {
     mavenBom 'io.github.jhipster:jhipster-dependencies:' + jhipster_dependencies_version
     //jhipster-needle-gradle-dependency-management - JHipster will add additional dependencies management here
+//    mavenBom 'org.activiti.cloud:activiti-cloud-dependencies:'+ activiti_cloud_version
+    mavenBom 'org.activiti.cloud:activiti-cloud-starter-audit:'+ activiti_cloud_version
   }
 }
 
@@ -251,7 +253,10 @@ dependencies {
     testCompile "org.hamcrest:hamcrest-library"
     testCompile "com.h2database:h2"
     liquibaseRuntime "com.h2database:h2"
-    //jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+    // jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+    // the minimum set of dependenciesactiviti audit service
+    compile "org.activiti.cloud:activiti-cloud-services-audit-jpa"
+    compile "com.querydsl:querydsl-core"
 }
 
 task cleanResources(type: Delete) {
